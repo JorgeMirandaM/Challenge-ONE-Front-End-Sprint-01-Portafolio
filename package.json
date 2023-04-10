@@ -1,0 +1,11 @@
+{
+  "name": "challenge-one-front-end-sprint-01-portafolio",
+  "version": "1.0.0",
+  "description": "This is my portfolio about me and my career as a programmer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jorge Federico Miranda Morones",
+  "license": "ISC"
+}
