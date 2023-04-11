@@ -1,0 +1,78 @@
+/*Experiencia Académica*/
+
+.seccion__experienciaAcademica {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: #eaf2fd;
+  padding: 82px 0;
+}
+
+.seccion__experienciaAcademica__contenedor {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.seccion__experienciaAcademica__contenedor h2 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+  color: #464646;
+}
+
+.academias {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+}
+
+.academia {
+  width: 368px;
+
+
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.academia__fondoBlanco {
+  width: 368px;
+height: 286px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+}
+
+.academia__fondoBlanco img {
+  width: 150px;
+    height: auto;
+}
+
+.academia h3 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  color: #464646;
+  margin: 0;
+  
+}
+
+.academia p {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #464646;
+  margin: 0;
+}

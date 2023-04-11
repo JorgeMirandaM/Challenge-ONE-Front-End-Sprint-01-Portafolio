@@ -1,0 +1,124 @@
+.seccion__experienciaProfesional {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+}
+
+.seccion__experienciaProfesional__contenedor {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.seccion__experienciaProfesional__contenedor h2 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+  color: #464646;
+}
+
+.experiencia {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 64px;
+}
+
+.vista__info {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+}
+
+.info__vista {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+}
+
+.proyecto__imagen {
+  width: 50%;
+  height: auto;
+  border: .5px solid #e0dfdf ;
+  border-radius: 4px;
+}
+
+.proyecto__imagen img {
+  width: 100%;
+  height: auto;
+}
+
+.informacionProyecto {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+}
+
+.informacionProyecto h3 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  color: #464646;
+  margin: 0;
+}
+
+.informacionProyecto p {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #464646;
+}
+
+.informacionProyecto__botones {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 16px;
+}
+
+.informacionProyecto__botones a {
+  box-sizing: border-box;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  gap: 10px;
+  border-radius: 4px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+#btn__repositorio {
+  background: transparent;
+  color: #2a7ae4;
+  border: 1px solid #2a7ae4;
+}
+
+#btn__demo {
+  background: #2a7ae4;
+  color: #ffffff;
+}
