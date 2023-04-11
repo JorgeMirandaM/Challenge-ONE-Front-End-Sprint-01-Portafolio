@@ -190,6 +190,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 32px 0;
 }
 
 .seccion__skillsHobbies h2 {
@@ -218,28 +219,21 @@ body {
 
 
 
-.seccion__skillsHobbies__skills .skills div {
+.seccion__skillsHobbies__skills .skills div ,.hobbies div {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-start;
   padding: 16px;
   gap: 8px;
-
   width: 176px;
   height: 174px;
-
-  /* Preto/branco */
-
   background: #ffffff;
 }
 
-.seccion__skillsHobbies__skills i {
-  color: #2a7ae4;
-  font-size: 48px;
-}
 
-.seccion__skillsHobbies__skills .skills div  img{
+
+.seccion__skillsHobbies__skills .skills div  img {
     width: 48px;
     height: 48px;
 }
@@ -257,4 +251,20 @@ body {
 
 .seccion__skillsHobbies__hobbies {
   width: 80%;
+}
+
+
+
+.seccion__skillsHobbies__hobbies .hobbies i{
+    font-size: 32px;
+    color: #2A7AE4;
+}
+
+.seccion__skillsHobbies__hobbies p{
+    font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+
+  color: #464646;
 }
