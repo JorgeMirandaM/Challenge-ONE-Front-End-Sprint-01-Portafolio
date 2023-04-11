@@ -7,18 +7,22 @@ body {
 }
 
 .portafolio {
-  width: 1440px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
+/*Sección de la barra de navegación del portafolio*/
+
 .seccion__navbar {
   width: 80%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 32px 0px;
+  margin-bottom: 32px;
 }
 
 .seccion__navbar header {
@@ -56,8 +60,201 @@ body {
   color: #464646;
 }
 
+.seccion__navbar nav ul li a {
+  text-decoration: none;
+  color: #464646;
+}
 
-.seccion__navbar nav ul li a{
-    text-decoration: none;
-    color: #464646;
+/*Sección de introducción de la persona*/
+
+.seccion__introduccion {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 32px 0;
+}
+
+.seccion__introduccion__informacion {
+  width: 100%;
+}
+
+.seccion__introduccion__informacion h1 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 61px;
+
+  color: #464646;
+}
+
+.seccion__introduccion__informacion h2 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #464646;
+}
+
+.seccion__introduccion__informacion ul {
+  width: 100%;
+  padding-left: 0;
+  display: flex;
+  list-style: none;
+
+  gap: 32px;
+  justify-content: flex-start;
+}
+
+.seccion__introduccion__informacion ul li {
+  display: flex;
+  flex-direction: row;
+}
+
+.seccion__introduccion__informacion ul li a {
+  text-decoration: none;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #464646;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.seccion__introduccion__informacion img {
+  width: 24px;
+  height: 24px;
+}
+
+.seccion__introduccion__foto img {
+  width: 368px;
+  height: 368px;
+  border-radius: 50%;
+}
+
+/*Sección de sobre mi (about me)*/
+
+.seccion__sobreMi {
+  width: 100%;
+  background: #eaf2fd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin: 32px 0;
+}
+
+.seccion__sobreMi__informacion {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 32px 64px 64px;
+}
+
+.seccion__sobreMi__informacion h2 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  color: #464646;
+}
+
+.seccion__sobreMi__informacion div {
+  width: 65%;
+}
+
+.seccion__sobreMi__informacion div p {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #464646;
+}
+
+.seccion__sobreMi__informacion img {
+  width: 140px;
+  height: 52px;
+}
+
+/*Sección de skills y hobbies*/
+
+.seccion__skillsHobbies {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.seccion__skillsHobbies h2 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+
+  text-align: center;
+
+  color: #464646;
+}
+
+.seccion__skillsHobbies__skills {
+  width: 80%;
+}
+
+.seccion__skillsHobbies__skills .skills, .hobbies{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  gap: 16px;
+}
+
+
+
+.seccion__skillsHobbies__skills .skills div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 16px;
+  gap: 8px;
+
+  width: 176px;
+  height: 174px;
+
+  /* Preto/branco */
+
+  background: #ffffff;
+}
+
+.seccion__skillsHobbies__skills i {
+  color: #2a7ae4;
+  font-size: 48px;
+}
+
+.seccion__skillsHobbies__skills .skills div  img{
+    width: 48px;
+    height: 48px;
+}
+
+
+
+.seccion__skillsHobbies__skills p {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+
+  color: #464646;
+}
+
+.seccion__skillsHobbies__hobbies {
+  width: 80%;
 }
