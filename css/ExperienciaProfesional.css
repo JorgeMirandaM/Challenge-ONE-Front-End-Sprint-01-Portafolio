@@ -4,6 +4,7 @@
   flex-direction: column;
   align-items: center;
   padding: 0px;
+  margin: 32px 0;
 }
 
 .seccion__experienciaProfesional__contenedor {
@@ -21,6 +22,7 @@
   font-size: 32px;
   text-align: center;
   color: #464646;
+  margin: 27px 0;
 }
 
 .experiencia {
@@ -49,6 +51,7 @@
   align-items: center;
   padding: 0px;
   gap: 16px;
+  
 }
 
 .proyecto__imagen {
@@ -56,11 +59,21 @@
   height: auto;
   border: .5px solid #e0dfdf ;
   border-radius: 4px;
+
+  
 }
 
 .proyecto__imagen img {
   width: 100%;
   height: auto;
+
+  border-radius: 4px;
+  border: transparent;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #a2a2a2;
 }
 
 .informacionProyecto {
@@ -85,6 +98,7 @@
   font-weight: 500;
   font-size: 16px;
   color: #464646;
+  margin: 16px 0;
 }
 
 .informacionProyecto__botones {

@@ -1,71 +1,72 @@
 /*Sección de introducción de la persona*/
 
 .seccion__introduccion {
-    width: 80%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin: 32px 0;
-  }
-  
-  .seccion__introduccion__informacion {
-    width: 100%;
-  }
-  
-  .seccion__introduccion__informacion h1 {
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 52px;
-    line-height: 61px;
-  
-    color: #464646;
-  }
-  
-  .seccion__introduccion__informacion h2 {
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 26px;
-    color: #464646;
-  }
-  
-  .seccion__introduccion__informacion ul {
-    width: 100%;
-    padding-left: 0;
-    display: flex;
-    list-style: none;
-  
-    gap: 32px;
-    justify-content: flex-start;
-  }
-  
-  .seccion__introduccion__informacion ul li {
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .seccion__introduccion__informacion ul li a {
-    text-decoration: none;
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    color: #464646;
-    display: flex;
-    align-items: center;
-    gap: 4px;
-  }
-  
-  .seccion__introduccion__informacion img {
-    width: 24px;
-    height: 24px;
-  }
-  
-  .seccion__introduccion__foto img {
-    width: 368px;
-    height: 368px;
-    border-radius: 50%;
-  }
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 32px 0;
+}
+
+.seccion__introduccion__informacion {
+  width: 100%;
+}
+
+.seccion__introduccion__informacion h1 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 61px;
+  margin: 44px 0;
+  color: #464646;
+}
+
+.seccion__introduccion__informacion h2 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #464646;
+  margin: 27px 0;
+}
+
+.seccion__introduccion__informacion ul {
+  width: 100%;
+  padding-left: 0;
+  display: flex;
+  list-style: none;
+
+  gap: 32px;
+  justify-content: flex-start;
+}
+
+.seccion__introduccion__informacion ul li {
+  display: flex;
+  flex-direction: row;
+}
+
+.seccion__introduccion__informacion ul li a {
+  text-decoration: none;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #464646;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.seccion__introduccion__informacion img {
+  width: 24px;
+  height: 24px;
+}
+
+.seccion__introduccion__foto img {
+  width: 368px;
+  height: 368px;
+  border-radius: 50%;
+}

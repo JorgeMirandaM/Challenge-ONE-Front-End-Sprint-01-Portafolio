@@ -6,6 +6,7 @@
   justify-content: center;
   background: #eaf2fd;
   padding: 82px 0;
+  margin: 32px 0;
 }
 
 .seccion__experienciaAcademica__contenedor {
@@ -22,6 +23,7 @@
   font-size: 32px;
   text-align: center;
   color: #464646;
+  margin: 27px 0;
 }
 
 .academias {
