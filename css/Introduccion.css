@@ -63,10 +63,11 @@
 .seccion__introduccion__informacion img {
   width: 24px;
   height: 24px;
+  
 }
 
 .seccion__introduccion__foto img {
-  width: 368px;
-  height: 368px;
+  width: 60%;
+  height: auto;
   border-radius: 50%;
 }

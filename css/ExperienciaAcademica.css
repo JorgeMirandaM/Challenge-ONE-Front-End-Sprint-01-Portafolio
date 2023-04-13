@@ -46,7 +46,7 @@
 .academia__fondoBlanco {
   width: 368px;
 height: 286px;
-
+border-radius: 10px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -55,7 +55,7 @@ height: 286px;
 }
 
 .academia__fondoBlanco img {
-  width: 150px;
+  width: 200px;
     height: auto;
 }
 

@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/ExperienciaAcademica.css" />
     <link rel="stylesheet" href="css/ExperienciaProfesional.css" />
     <link rel="stylesheet" href="css/Contacto.css" />
-    <link rel="stylesheet" href="css/Rodapie.css">
+    <link rel="stylesheet" href="css/Rodapie.css" />
     <link rel="stylesheet" href="assets/fontawesome/css/all.min.css" />
     <title>Portafolio</title>
   </head>
@@ -26,22 +26,22 @@
         </header>
         <nav>
           <ul>
-            <li><a href="">Sobre mi</a></li>
-            <li><a href="">Skills</a></li>
-            <li><a href="">Hobbies</a></li>
-            <li><a href="">Formacion</a></li>
-            <li><a href="">Proyectos</a></li>
-            <li><a href="">jmirandamoronesgmail.com</a></li>
+            <li><a href="#sobreMi">Sobre mi</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#formacion">Formacion</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
           </ul>
         </nav>
       </section>
       <!-- Sección de introducción de la persona -->
       <section class="seccion__introduccion">
         <div class="seccion__introduccion__informacion">
-          <h1>Hola, mi nombre es Jorge Miranda y construyo paginas web</h1>
+          <h1>Hola, soy Jorge Federico Miranda Morones</h1>
           <h2>
-            Soy formado en Ingenieria en Sistemas Computacionales y actualmente
-            estoy participando del proyecto Oracle ONE en Alura Latam.
+            Soy formado en Ingenieria en Sistemas Computacionales y
+            desarrollador Frond-End.
           </h2>
           <ul>
             <li>
@@ -64,31 +64,45 @@
           </ul>
         </div>
         <div class="seccion__introduccion__foto">
-          <img src="assets/images/personal/foto_perfil.png" alt="" />
+          <img src="assets/images/personal/foto_perfil.jpg" alt="" />
         </div>
       </section>
       <!--Sección de sobre mi (about me)-->
-      <section class="seccion__sobreMi">
-        <div class="seccion__sobreMi__informacion">
-          <h2>Sobre mi</h2>
-          <div>
-            <p>
-              Systems Computer Engineering student, I am looking for opportunity
-              to acquire experience in the front-end area using frameworks like
-              react or angular and interships about Devops area.
-            </p>
-            <p>
-              I am looking for teamwork, cooperating with everyone and
-              supporting in the best possible way and always willing to learn
-              new things.
-            </p>
+      <section class="seccion__sobreMi" id="sobreMi">
+        <div class="seccion__sobreMi__contenedor">
+          <div class="seccion__sobreMi__informacion">
+            <h2>Sobre mi</h2>
+            <div>
+              <p>
+                Tengo 23 años y soy de Zacatecas pero he vivido cuatro años en
+                Guadalajara. Estoy estudiando la Ingeniería en Sistemas
+                Computacionales y a lo largo de la carrera, me fui inclinando
+                poco a poco al desarrollo web en el area de Frond-End y en
+                ocasiones en el Back-End.
+              </p>
+              <p>
+                Actualmente, estoy cursando mi ultimo semestre de la ingenieria
+                realizando mis practicas profesionales ademas de proyectos del
+                programa Oracle Next Education en asociación con Alura Latam.
+              </p>
+            </div>
           </div>
-          <img src="assets/images/personal/firma.jpg" alt="" />
+          <div class="seccion__sobreMi__softSkills">
+            <h2>Soft Skills</h2>
+            <div>
+              <ul>
+                <li>Responsable</li>
+                <li>Dedicado</li>
+                <li>Meticuloso</li>
+                <li>Organizado</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </section>
 
       <!--Sección de skills y hobbies-->
-      <section class="seccion__skillsHobbies">
+      <section class="seccion__skillsHobbies" id="skills">
         <div class="seccion__skillsHobbies__skills">
           <h2>Skills</h2>
           <div class="skills">
@@ -138,7 +152,7 @@
             </div>
           </div>
         </div>
-        <div class="seccion__skillsHobbies__hobbies">
+        <div class="seccion__skillsHobbies__hobbies" id="hobbies">
           <h2>Hobbies</h2>
           <div class="hobbies">
             <div>
@@ -162,7 +176,7 @@
       </section>
 
       <!--Experiencia Académica-->
-      <section class="seccion__experienciaAcademica">
+      <section class="seccion__experienciaAcademica" id="formacion">
         <div class="seccion__experienciaAcademica__contenedor">
           <h2>Formación Académica</h2>
           <div class="academias">
@@ -188,67 +202,27 @@
       </section>
 
       <!--Experiencia Profesional-->
-      <section class="seccion__experienciaProfesional">
+      <section class="seccion__experienciaProfesional" id="proyectos">
         <div class="seccion__experienciaProfesional__contenedor">
           <h2>Experiencia Profesional</h2>
-          <div class="experiencia">
-            <div class="vista__info">
+          <div class="proyectos">
+            <div class="proyecto">
               <div class="proyecto__imagen">
                 <img src="assets/images/profesional/encriptador.png" alt="" />
               </div>
-              <div class="informacionProyecto">
+              <div class="proyecto__informacion">
                 <h3>Encriptador de Texto</h3>
-                <p>Challenge Alura Codificador</p>
-                <div class="informacionProyecto__botones">
-                  <a
-                    id="btn__repositorio"
-                    target="_blank"
-                    href="https://github.com/JorgeMirandaM/Challenge-ONE-Sprint-01-Encriptador-de-Texto"
-                    >Repositorio</a
-                  >
-                  <a
-                    id="btn__demo"
-                    target="_blank"
-                    href="https://jorgemirandam.github.io/Challenge-ONE-Sprint-01-Encriptador-de-Texto/"
-                    >Ver demo</a
-                  >
+                <p>Challenge Oracle Next Education y Alura</p>
+                <p>Implementó:</p>
+                <div class="proyecto__implemento">
+                  <span>Html 5</span>
+                  <span>Css 3</span>
+                  <span>JavaScript</span>
+                  <span>Responsive</span>
                 </div>
-              </div>
-            </div>
-
-            <div class="info__vista">
-              <div class="proyecto__imagen">
-                <img src="" alt="En proceso.." />
-              </div>
-              <div class="informacionProyecto">
-                <h3>Terminal Punto de Venta</h3>
-                <p>Proyecto Escolar</p>
-                <div class="informacionProyecto__botones">
-                  <a
-                    id="btn__repositorio"
-                    target="_blank"
-                    href="https://github.com/JorgeMirandaM/Challenge-ONE-Sprint-01-Encriptador-de-Texto"
-                    >Repositorio</a
-                  >
-                  <a
-                    id="btn__demo"
-                    target="_blank"
-                    href="https://jorgemirandam.github.io/Challenge-ONE-Sprint-01-Encriptador-de-Texto/"
-                    >Ver demo</a
-                  >
-                </div>
-              </div>
-            </div>
-            <div class="vista__info">
-              <div class="proyecto__imagen">
-                <img src="" alt="En proceso..." />
-              </div>
-              <div class="informacionProyecto">
-                <h3>Fundación Dedica</h3>
-                <p>PLataforma web de institución</p>
-                <div class="informacionProyecto__botones">
-                  <a id="btn__repositorio" href="">Repositorio</a>
-                  <a id="btn__demo" href="">Ver demo</a>
+                <div class="proyecto__links">
+                  <a href="">Ver demo</a>
+                  <a href="">Repositorio</a>
                 </div>
               </div>
             </div>
@@ -257,7 +231,7 @@
       </section>
 
       <!--Sección de Contacto-->
-      <section class="seccion__contacto">
+      <section class="seccion__contacto" id="contacto">
         <div class="seccion__contacto__contenedor">
           <div class="contacto__imagen">
             <img src="assets/images/contacto/contacto.png" alt="" />
@@ -267,10 +241,10 @@
               <h2>Contacto</h2>
               <div>
                 <p>¿Quieres contactarme?</p>
-              <p>
-                Complete el siguiente formulario y me pondré en contacto con
-                usted lo antes posible.
-              </p>
+                <p>
+                  Complete el siguiente formulario y me pondré en contacto con
+                  usted lo antes posible.
+                </p>
               </div>
             </div>
             <form action="" class="contacto__formulario">
