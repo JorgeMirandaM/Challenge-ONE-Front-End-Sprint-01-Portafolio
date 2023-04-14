@@ -5,7 +5,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 32px 0;
+    padding: 64px 0;
   }
   
   .seccion__skillsHobbies h2 {
@@ -78,6 +78,15 @@
     color: #2a7ae4;
   }
   
+  .hobbies div{
+    transition: all 300ms;
+
+  }
+
+  .hobbies div:hover{
+    transform: scale(1.15);
+  }
+
   .seccion__skillsHobbies__hobbies p {
     font-family: "Raleway";
     font-style: normal;
@@ -87,4 +96,5 @@
     color: #464646;
   }
   
+ 
  

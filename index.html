@@ -31,7 +31,7 @@
             <li><a href="#hobbies">Hobbies</a></li>
             <li><a href="#formacion">Formacion</a></li>
             <li><a href="#proyectos">Proyectos</a></li>
-            <li><a href="#contacto">Contacto</a></li>
+            <li id="contactolink"><a href="#contacto">Contacto</a></li>
           </ul>
         </nav>
       </section>
@@ -206,7 +206,7 @@
         <div class="seccion__experienciaProfesional__contenedor">
           <h2>Experiencia Profesional</h2>
           <div class="proyectos">
-            <div class="proyecto">
+            <div class="proyecto">  
               <div class="proyecto__imagen">
                 <img src="assets/images/profesional/encriptador.png" alt="" />
               </div>
@@ -301,10 +301,11 @@
                 </p>
               </div>
             </div>
-            <form action="" class="contacto__formulario">
+            <form class="contacto__formulario">
               <div class="input__contenedor">
                 <input
                   type="text"
+                  name="nombre"
                   placeholder="Nombre"
                   required
                   data-tipo="nombre"
@@ -315,6 +316,7 @@
               <div class="input__contenedor">
                 <input
                   type="email"
+                  name="email"
                   placeholder="E-mail"
                   required
                   data-tipo="email"
@@ -324,6 +326,7 @@
               <div class="input__contenedor">
                 <input
                   type="text"
+                  name="asunto"
                   placeholder="Asunto"
                   required
                   data-tipo="asunto"
@@ -332,8 +335,7 @@
               </div>
               <div class="textarea-contenedor">
                 <textarea
-                  name=""
-                  id=""
+                  name="mensaje"
                   cols="30"
                   rows="10"
                   placeholder="Mensaje"
@@ -342,17 +344,17 @@
                 ></textarea>
                 <span class="input-mensaje-error">Este campo no es valido</span>
               </div>
+              <div class="contacto__informacion__formulario_btn"><button type="submit">Enviar Mensaje</button></div>
+          
             </form>
-            <div class="contacto__informacion__formulario_btn"><button>Enviar Mensaje</button></div>
-          </div>
+            </div>
         </div>
       </section>
 
       <!--Sección de Rodapie-->
       <footer class="seccion__rodapie">
         <div class="seccion__rodapie__contenedor">
-          <p>Desarrollado por Jorge Federico Miranda Morones</p>
-          <p>2023</p>
+          <p>© copyright Portafolio 2023 | Jorge Federico Miranda Morones</p>
         </div>
       </footer>
     </div>
