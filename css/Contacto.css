@@ -51,6 +51,13 @@
   margin: 0;
 }
 
+.contacto__informacion__instrucciones div{
+  display: flex;
+  flex-direction: column;
+  gap:16px
+
+}
+
 .contacto__informacion__instrucciones p {
   font-family: "Raleway";
   font-style: normal;
@@ -63,9 +70,12 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   padding: 0px;
-  gap: 32px;
+  gap: 16px;
+}
+
+.input-container{
+  width: 100%;
 }
 
 .contacto__formulario input {
@@ -93,10 +103,15 @@
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  color: #a2a2a2;
 }
 
-.contacto__informacion button {
+.contacto__informacion__formulario_btn{
+height: 100%;
+  display: flex;
+  align-items: end;
+}
+
+.contacto__informacion__formulario_btn button {
     border: transparent;
   background: #2a7ae4;
   padding: 16px;
@@ -107,4 +122,57 @@ font-size: 16px;
 color: #FFFFFF;
 border-radius: 4px;
 cursor: pointer;
+
+}
+
+
+
+/*Validacion de inputs*/
+
+.input-contenedor--invalido {
+  margin-bottom: 0.5rem;
+}
+
+.input-contenedor--invalido input {
+  border: 1px solid #df2525;
+  border-radius: 7px;
+}
+
+
+.input-mensaje-error {
+  display: none;
+}
+
+.input-contenedor--invalido .input-mensaje-error {
+  color: #df2525;
+  display: block;
+  margin-top: 0.5rem;
+  padding-left: 0.5rem;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+/*Validacion de textarea*/
+
+.input-contenedor--invalido {
+  margin-bottom: 0.5rem;
+}
+
+.textarea-contenedor--invalido textarea {
+  border: 1px solid #df2525;
+  border-radius: 7px;
+}
+
+
+.textarea-contenedor--invalido .input-mensaje-error {
+  color: #df2525;
+  display: block;
+  margin-top: 0.5rem;
+  padding-left: 0.5rem;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
 }

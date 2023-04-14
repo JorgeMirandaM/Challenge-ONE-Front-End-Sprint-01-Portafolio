@@ -240,8 +240,16 @@
                   <span>Responsive</span>
                 </div>
                 <div class="proyecto__links">
-                  <a href="https://jorgemirandam.github.io/Apeperia/" target="_blank">Ver demo</a>
-                  <a href="https://github.com/JorgeMirandaM/Apeperia" target="_blank">Repositorio</a>
+                  <a
+                    href="https://jorgemirandam.github.io/Apeperia/"
+                    target="_blank"
+                    >Ver demo</a
+                  >
+                  <a
+                    href="https://github.com/JorgeMirandaM/Apeperia"
+                    target="_blank"
+                    >Repositorio</a
+                  >
                 </div>
               </div>
             </div>
@@ -259,8 +267,16 @@
                   <span>Responsive</span>
                 </div>
                 <div class="proyecto__links">
-                  <a href="https://jorgemirandam.github.io/Fruta-y-Fruto/" target="_blank">Ver demo</a>
-                  <a href="https://github.com/JorgeMirandaM/Fruta-y-Fruto" target="_blank">Repositorio</a>
+                  <a
+                    href="https://jorgemirandam.github.io/Fruta-y-Fruto/"
+                    target="_blank"
+                    >Ver demo</a
+                  >
+                  <a
+                    href="https://github.com/JorgeMirandaM/Fruta-y-Fruto"
+                    target="_blank"
+                    >Repositorio</a
+                  >
                 </div>
               </div>
             </div>
@@ -286,18 +302,48 @@
               </div>
             </div>
             <form action="" class="contacto__formulario">
-              <input type="text" placeholder="Nombre" />
-              <input type="email" placeholder="E-mail" />
-              <input type="text" placeholder="Asunto" />
-              <textarea
-                name=""
-                id=""
-                cols="30"
-                rows="10"
-                placeholder="Mensaje"
-              ></textarea>
+              <div class="input__contenedor">
+                <input
+                  type="text"
+                  placeholder="Nombre"
+                  required
+                  data-tipo="nombre"
+                />
+
+                <span class="input-mensaje-error">Este campo no es valido</span>
+              </div>
+              <div class="input__contenedor">
+                <input
+                  type="email"
+                  placeholder="E-mail"
+                  required
+                  data-tipo="email"
+                />
+                <span class="input-mensaje-error">Este campo no es valido</span>
+              </div>
+              <div class="input__contenedor">
+                <input
+                  type="text"
+                  placeholder="Asunto"
+                  required
+                  data-tipo="asunto"
+                />
+                <span class="input-mensaje-error">Este campo no es valido</span>
+              </div>
+              <div class="textarea-contenedor">
+                <textarea
+                  name=""
+                  id=""
+                  cols="30"
+                  rows="10"
+                  placeholder="Mensaje"
+                  required
+                  data-tipo="mensaje"
+                ></textarea>
+                <span class="input-mensaje-error">Este campo no es valido</span>
+              </div>
             </form>
-            <button>Enviar Mensaje</button>
+            <div class="contacto__informacion__formulario_btn"><button>Enviar Mensaje</button></div>
           </div>
         </div>
       </section>
@@ -310,5 +356,7 @@
         </div>
       </footer>
     </div>
+
+    <script src="./js/app.js" type="module"></script>
   </body>
 </html>
